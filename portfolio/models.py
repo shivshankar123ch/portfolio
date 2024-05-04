@@ -26,6 +26,7 @@ class Internship(models.Model):
     fullname=models.CharField(max_length=60)
     usn=models.CharField(max_length=60)
     email=models.CharField(max_length=60)
+    phone_no=models.CharField(max_length=10,default=True)
     college_name=models.CharField(max_length=100)
     offer_status=models.CharField(max_length=60)
     start_date=models.CharField(max_length=60)
